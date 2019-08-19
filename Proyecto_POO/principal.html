@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Astro-Promo</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link rel='stylesheet' href='css/bootstrap.css'>
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel='stylesheet' href='css/principal.css'>
+  <link rel="shortcut icon" href="img/logus2.png">
+  <script src='js/principal.js'></script>
+</head>
+
+<body id="body-principal">
+  <!-- Navigation -->
+  <div class="cabecera">
+    <nav id="nav-principal" class="navbar navbar-expand-lg navbar-dark  ">
+      <a class="navbar-brand" href="principal.html"><img src="img/logus2.png" height="60rem"></a>
+      <form class="form-inline my-2 my-lg-0 ml-auto">
+        <a class="btn btn-outline-verde " href="#peculiaridades">Peculiaridades</a>
+        <a class="btn btn-outline-verde " href="#comenzar">Comenzar</a>
+        <div class="dropdown">
+          <a class="btn btn-outline-verde dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="navbar-toggler-icon" id="btn-dropdown"></span>
+          </a>
+          <div class="dropdown-menu " aria-labelledby="dropdownMenuLink" id="menu-dropdown">
+              <a class="dropdown-item " href="#modal-entrar" id="btn-dropdown" data-toggle="modal" data-target="#modal-entrar">Cliente</a>
+            <a class="dropdown-item " href="#modal-entrar" id="btn-dropdown"  data-toggle="modal" data-target="#modal-entrar">Empresa</a>
+            <a class="dropdown-item " href="#modal-entrar" id="btn-dropdown"  data-toggle="modal" data-target="#modal-entrar">Administrador</a>
+          </div>
+        </div>
+      </form>
+    </nav>
+    <!-- Encabezamiento  -->
+    <header class="encabezamiento">
+      <div class="body-header">
+        <div class="container" id="container">
+          <div class="row">
+            <div class="col-lg-10 mx-auto" id="columna-principal">
+              <h1 class="titulo">Astro-Promo</h1><br>
+              <h2 class="subtitulo">Un Mundo de Promociones</h2>
+              <img src="img/ese(4).png" class="rounded mx-auto d-block" style="margin-top: 50px;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+
+
+  <section id="peculiaridades" class="content-section text-center ">
+    <div class="container">
+      <div class="mx-auto">
+        <div id="demo" class="carousel slide " data-ride="carousel">
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+          <div id="body-carousel" class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="form-row">
+                <img class="col-12 col-md-6" src="img/bus.png" alt="Peculiaridad N-1">
+                <div class="col-2 col-md-6 contenido">
+                  <p class="text-capitalize text-center">Peculiaridad N-1</p>
+                  <div class="text-left">
+                    este es un mensaje de nuestra peculiaridad numero 1, gracias por vernos
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="form-row">
+                <img class="col-12 col-md-6" src="img/c2.png" alt="Peculiaridad N-2">
+                <div class="col-2 col-md-6 contenido">
+                  <p class="text-capitalize text-center">Peculiaridad N-2</p>
+                  <div class="text-left">
+                    este es un mensaje de nuestra peculiaridad numero 2, gracias por vernos
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="form-row">
+                <img class="col-12 col-md-6" src="img/c3.png" alt="Peculiaridad N-2">
+                <div class="col-2 col-md-6 contenido">
+                  <p class="text-capitalize text-center">Peculiaridad N-3</p>
+                  <div class="text-left">
+                    este es un mensaje de nuestra peculiaridad numero 3, gracias por vernos
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#demo" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+
+        <!--/div-->
+      </div>
+    </div>
+
+
+  </section>
+  <section id="comenzar" class="content-section text-center ">
+    <div class="container">
+      <div class="mx-auto">
+        <div class="col-lg-10 mx-auto" id="comenzar-principal">
+          <div class="row">
+            <div class="text-center col-6 col-sm-3">
+              <img src="img/c2.png" class="rounded" id="img-rounded" alt="Busca"><br>
+              <h3>Busca</h3>
+            </div>
+            <div class="text-center col-6 col-sm-3">
+              <img src="img/c4.png" class="rounded" id="img-rounded" alt="Encuentra">
+              <h3>Encuentra</h3>
+            </div>
+            <div class="text-center col-6 col-sm-3">
+              <img src="img/c1.png" class="rounded" id="img-rounded" alt="Compra">
+              <h3>Compra</h3>
+            </div>
+            <div class="text-center col-6 col-sm-3">
+              <img src="img/c3.png" class="rounded" id="img-rounded" alt="Utiliza">
+              <h3>Utiliza</h3>
+            </div>
+          </div>
+          <div class="text-center" id="parrafo">
+            <br>
+            <h4>COMIENZA AHORA</h4>
+            <h4>Únete a nuestra familia y explora las mejores promociones.</h4>
+            <h4>Vive mejor, vive con Astro-Promo.</h4>
+          </div>
+          <div class="text-center">
+            <input id="btn-registrate" type="button" value="Registrate" class="btn btn-outline-verde"
+              onclick="mostrar()">
+          </div>
+          <div id="registrar" class="d-none">
+            <div class="form-inline justify-content-center animated flip">
+              <div class="from-group ">
+                <input type="button" value="Usuario" class="btn btn-outline-verde" data-toggle="modal"
+                  data-target="#modal1" />
+              </div>
+              <div class="from-group ">
+                <input type="button" value="Empresa" class="btn btn-outline-verde" data-toggle="modal"
+                  data-target="#modal2" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog mx-auto" role="document">
+        <div class="modal-content ">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLabel">Registro</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form class="needs-validation" novalidate>
+              <div class="form-row">
+                <div class="col-md-4 mb-3">
+                  <label for="nombre-persona">Nombre:</label>
+                  <input type="text" class="form-control" id="nombre-persona" placeholder="Nombre" value="" required>
+                  <div class="valid-feedback">
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="apellido-persona">Apellido:</label>
+                  <input type="text" class="form-control" id="apellido-persona" placeholder="apellido-persona" value="" required>
+                  <div class="valid-feedback">
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
+                  <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-"><select class="form-control"><option>Mes</option></select></div>
+                    <div class="col-xl-4 col-lg-4 col-"><select class="form-control"><option>Día</option></select></div>
+                    <div class="col-xl-4 col-lg-4 col-"><select class="form-control"><option>Año</option></select></div>
+                  </div>
+                  <div class="invalid-feedback">
+                    Campo obligatorio
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-3 mb-3 mx-auto">
+                  <label for="genero">Genero:</label>
+                  <div class="row ">
+                  <label><input type="radio" class="col-4" style="padding-left: 10px">Female</label> 
+                  <label><input type="radio" class="col-4" style="padding-left: 10px">Male</label> 
+                  <label><input type="radio" class="col-4" style="padding-left: 10px">Custom</label>
+                </div>
+                  <div class="invalid-feedback">
+                    Campo obligatorio
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="correo">Correo:</label>
+                  <input type="text" class="form-control" id="correo" placeholder="Correo" required>
+                  <div class="invalid-feedback">
+                    Campo obligatorio
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="col-md-4 mb-3">
+                  <label for="telefono">Telefono:</label>
+                  <input type="text" class="form-control" id="telefono" placeholder="telefono" required>
+                  <div class="invalid-feedback">
+                    Campo obligatorio
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="usuario">Usuario:</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    </div>
+                    <input type="text" class="form-control" id="usuario" placeholder="usuario"
+                      aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                      Please choose a username.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="contrasena">Contraseña:</label>
+                  <input type="password" class="form-control" id="contrasena" placeholder="contrasena" required>
+                  <div class="invalid-feedback">
+                    Campo obligatorio
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                  <label class="form-check-label" for="invalidCheck">
+                    Agree to terms and conditions
+                  </label>
+                  <div class="invalid-feedback">
+                    You must agree before submitting.
+                  </div>
+                </div>
+              </div>
+              <a class="btn btn-outline-verde" type="submit" href="main.html">Registrarse</a>
+            </form>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-verde" data-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Moda2 -->
+    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLabel">Registro</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+
+            <form class="needs-validation" novalidate>
+              <div class="form-row">
+                <div class="col-md-4 mb-3">
+                  <label for="nombre-empresa">Nombre de la Empresa:</label>
+                  <input type="text" class="form-control" id="nombre-empresa" placeholder="Nombre" value="" required>
+                  <div class="valid-feedback">
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="pais">Pais:</label>
+                  <input type="text" class="form-control" id="pais" placeholder="Pais" value="" required>
+                  <div class="valid-feedback">
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="estado">Estado:</label>
+                  <input type="text" class="form-control" id="estado" placeholder="Estado" required>
+                  <div class="invalid-feedback">
+                    Campo obligatorio
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-6 mb-3">
+                  <label for="direccion">Direccion:</label>
+                  <input type="text" class="form-control" id="direccion" placeholder="Direccion" required>
+                  <div class="invalid-feedback">
+                    Campo obligatorio
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="correo">Correo:</label>
+                  <input type="text" class="form-control" id="correo" placeholder="Correo" required>
+                  <div class="invalid-feedback">
+                    Campo obligatorio
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="col-md-4 mb-3">
+                  <label for="telefono">Telefono:</label>
+                  <input type="text" class="form-control" id="telefono" placeholder="telefono" required>
+                  <div class="invalid-feedback">
+                    Campo obligatorio
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="usuario">Usuario:</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    </div>
+                    <input type="text" class="form-control" id="usuario" placeholder="usuario"
+                      aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                      Please choose a username.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="contrasena">Contraseña:</label>
+                  <input type="password" class="form-control" id="contrasena" placeholder="contrasena" required>
+                  <div class="invalid-feedback">
+                    Campo obligatorio
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-6 mb-3">
+                  <input type="file" name="icono-empresa" id="icono-empresa">
+                  <hr>
+                  <div id="preview" class="row"></div>
+                  </div>
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                  <label class="form-check-label" for="invalidCheck">
+                    Agree to terms and conditions
+                  </label>
+                  <div class="invalid-feedback">
+                    You must agree before submitting.
+                  </div>
+                </div>
+              </div>
+              <button class="btn btn-outline-verde" type="submit">Registrate</button>
+            </form>
+
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-verde" data-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+  </section>
+  <div class="modal fade" id="modal-entrar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content-2">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLabel">Registro</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="form-row">
+              <div class="col-md-4 mb-3">
+                  <label for="usuario">Usuario:</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    </div>
+                    <input type="text" class="form-control" id="usuario" placeholder="usuario"
+                      aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                      Please choose a username.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="contrasena">Contraseña:</label>
+                  <input type="password" class="form-control" id="contrasena" placeholder="contrasena" required>
+                  <div class="invalid-feedback">
+                    Campo obligatorio
+                  </div>
+                </div>
+              </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-verde" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-outline-verde">Entrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>
